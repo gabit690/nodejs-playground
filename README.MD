@@ -1,15 +1,16 @@
-# **PROJECT TITLE**
+# **Node JS: First steps**
 
 ## **Description**
 
-DESCRIPTION
+Projects to learn the basics of [NodeJS][nodejs].
 
-You can check the project [here][web].
+You can check them [here][web].
 
 ## **Author**
 
-**Username:** USERNAME
+**Username:** Gabit
 
-**Profession:** PROFESSION
+**Profession:** Autodidact software developer
 
+[nodejs]: https://nodejs.org/en/
 [web]: ???
