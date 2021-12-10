@@ -1,3 +1,6 @@
-const arithmetic = require("./arithmetic.js");
+const os = require('os');
 
-console.log(arithmetic.divide(5, 0));
+console.log(`OS Platform: ${os.platform()}`);
+console.log(`OS Release: ${os.release()}`);
+console.log(`Free memory: ${os.freemem()} bytes`);
+console.log(`Total memory: ${os.totalmem()} bytes`);
