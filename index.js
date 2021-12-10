@@ -1,6 +1,17 @@
-const os = require('os');
+const fs = require('fs');
 
-console.log(`OS Platform: ${os.platform()}`);
-console.log(`OS Release: ${os.release()}`);
-console.log(`Free memory: ${os.freemem()} bytes`);
-console.log(`Total memory: ${os.totalmem()} bytes`);
+fs.writeFile("./text.txt", "Hello world", (err) => {
+    if (err) {
+        console.log(err);
+    } else {
+        console.log("File created");
+    }
+});
+
+fs.readFile("./text.txt", (err, data) => {
+    if (err) {
+        console.log(err);
+    } else {
+        console.log(data.toString());
+    }
+});
