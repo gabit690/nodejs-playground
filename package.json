@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabit690/nodejs-playground.git"
+  },
+  "author": "gabit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabit690/nodejs-playground/issues"
+  },
+  "homepage": "https://github.com/gabit690/nodejs-playground#readme"
+}
